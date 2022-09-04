@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e88032;
+
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+label {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+#dateOfBirth {
+  max-width: 50%;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 0.4rem;
+  outline: none;
+}
+#luckyNumber {
+  max-width: 50%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 0.5rem 0.6rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  outline: none;
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+}
+#checkBtn {
+  max-width: 20%;
+  margin: auto;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  outline: none;
+  color: white;
+  background-color: #e88032;
+}
+#output {
+  color: red;
+  padding: 0.4rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: #e88032;
+  width: 100%;
+}
+ul,
+li {
+  display: inline;
+  padding-left: 0.5rem;
+}
+.icons {
+  width: 40px;
+  padding: 0.3rem;
+}
